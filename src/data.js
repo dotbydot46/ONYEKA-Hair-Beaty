@@ -3,7 +3,7 @@ export const salon = {
   whatsapp: 'https://wa.me/447956627542', email: 'realhairdress84@icloud.com',
   street: '59B Lower Adiscombe Road', town: 'Croydon', postcode: 'CR0 6PQ',
   booking: { enabled: false, url: null },
-  origin: null, approvedForPublication: false,
+  origin: 'https://onyeka-hair-beauty.zaryabrawa.chatgpt.site', approvedForPublication: true,
 };
 export const whatsappUrl = (message = '') => salon.whatsapp + (message ? '?text=' + encodeURIComponent(message) : '');
 export const mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${salon.street}, ${salon.town} ${salon.postcode}`);

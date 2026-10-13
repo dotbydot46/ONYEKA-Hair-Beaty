@@ -33,13 +33,13 @@ The build also produces `offline-preview/`. Open its `index.html` directly in a 
 - Mobile navigation with Escape to close, persistent mobile contact actions, native accessible FAQ disclosures, labelled form fields, skip link, keyboard focus, reduced motion and responsive layouts.
 - Enquiry form prepares an email or WhatsApp message; the visitor reviews and sends it in the selected app. It does not submit to a server, save visitor data or claim delivery.
 - Locally served fonts and image assets. No analytics, cookies, external embeds or external font requests have been added.
-- Per-page titles, descriptions and structured data. Indexing is disabled for this unpublished preview.
+- Per-page titles, descriptions and structured data. Public release includes canonical URLs, a sitemap and enabled indexing.
 
 ## Content and assets
 
 `src/data.js` is the central place for contact details, services, FAQs and publication configuration. `src/components.jsx` holds shared navigation, contact actions, gallery, FAQs and footer. `src/pages/` contains the page views. `src/styles.css` defines the theme and responsive layout.
 
-The address is preserved as supplied by the owner: **59B Lower Adiscombe Road, Croydon, CR0 6PQ**. Confirm the postal spelling before publishing. Phone/WhatsApp: **07956627542**. Email: **realhairdress84@icloud.com**.
+The address is preserved as supplied by the owner: **59B Lower Adiscombe Road, Croydon, CR0 6PQ**. This address was confirmed by the owner. Phone/WhatsApp: **07956627542**. Email: **realhairdress84@icloud.com**.
 
 The SVG monogram and stacked logo are an original proposed ONYEKA identity, extending the black/gold branding from the first preview. They are not a reproduction of unavailable signage artwork. Replace them with the existing salon logo if required.
 
@@ -72,7 +72,7 @@ Online appointment booking is intentionally absent. `salon.booking` reserves the
 
 ## Before publication
 
-The owner must approve publication and any domain purchase. This project has not been published.
+Publication and public access were approved by the owner. Live URL: https://onyeka-hair-beauty.zaryabrawa.chatgpt.site . No domain purchase has been made or authorised.
 
 1. Approve the design, logo and exact postal address.
 2. Add real salon photos and verified opening hours if desired. No hours, prices, testimonials, qualifications or service outcome claims have been invented.
