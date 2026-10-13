@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {salon,pages} from '../src/data.js';
+for(const page of pages){const html=await fs.readFile(path.join('dist',page.file),'utf8');assert.match(html,/<h1[ >]/,page.file+' must have rendered content');assert.match(html,/<nav[^>]*aria-label="Main navigation"/);assert.match(html,/<meta name="description"/);const data=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);assert.equal(data.telephone,salon.telephone);assert.equal(data.address.postalCode,salon.postcode);assert.match(html,/aria-current="page"/);for(const match of html.matchAll(/(?:src|href)="([^"?#]+\.(?:html|webp|svg|css|js))"/g)){if(!match[1].startsWith('http'))await fs.access(path.resolve('dist',match[1]));}}
+const home=await fs.readFile('dist/index.html','utf8');assert.match(home,/EDITORIAL CONCEPT IMAGE/);assert.match(home,/SALON PHOTO COMING SOON/);const contact=await fs.readFile('dist/contact.html','utf8');assert.match(contact,/type="email"[^>]*required/);assert.match(contact,/Review and send your message/);console.log(`Passed: ${pages.length} rendered pages, metadata, structured data and linked assets.`);
