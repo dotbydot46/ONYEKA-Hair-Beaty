@@ -14,3 +14,5 @@
 - Offline preview assets are bundled and local. Direct file-protocol browser testing is unavailable in this review environment; browser QA used the HTTP production preview. This is not a formal accessibility audit.
 
 The final preview is unpublished and search indexing remains disabled.
+
+Homepage image update: checked all seven pages at 320, 390 and 1440 pixels (21 layouts), image loading, mobile menu/Escape, service filters/search and no-result state, contact form validation and call/WhatsApp links. No browser errors or horizontal overflow. Four compressed editorial service images use lazy loading and visible inspiration labels. Canonical URLs and sitemap now match the host's clean page addresses.

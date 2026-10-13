@@ -90,3 +90,5 @@ Reviewed for customer journeys, service categories, editorial presentation and c
 - https://www.hershesons.com/
 
 See `DESIGN-NOTES.md` for the design rationale and asset brief.
+
+The homepage service cards use four AI-generated editorial inspiration images with visible labels, bundled locally as compressed WebP files. They do not represent actual ONYEKA salon work or available product stock.
