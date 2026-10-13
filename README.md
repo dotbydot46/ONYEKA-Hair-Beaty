@@ -41,7 +41,7 @@ The build also produces `offline-preview/`. Open its `index.html` directly in a 
 
 The address is preserved as supplied by the owner: **59B Lower Adiscombe Road, Croydon, CR0 6PQ**. This address was confirmed by the owner. Phone/WhatsApp: **07956627542**. Email: **realhairdress84@icloud.com**.
 
-The SVG monogram and stacked logo are an original proposed ONYEKA identity, extending the black/gold branding from the first preview. They are not a reproduction of unavailable signage artwork. Replace them with the existing salon logo if required.
+The active website logo is the established Golden Queen Profile Emblem supplied by the owner, already used on posters and the salon signboard. Its original PNG and black background are preserved in public/assets/onyeka-golden-queen.png. The earlier proposed SVG assets remain unused.
 
 The decorative portrait is AI-generated editorial concept imagery, visibly labelled on the homepage. It is not an actual ONYEKA client, stylist or salon photograph. Real salon images remain clearly labelled placeholders. Replace them with approved photos and accurate alternative text when available.
 

@@ -6,3 +6,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 
+
+/* Established salon emblem supplied by the owner, on its original black background. */
+.logo img{width:78px;height:auto;aspect-ratio:1448/1086;object-fit:contain;border-radius:4px;background:#000}.logo-light img{filter:none}.welcome-mark{background:#000;border-radius:14px;max-width:380px}.welcome-mark img{width:100%;height:auto}.about-logo{padding:24px;background:#000;border-radius:14px}.about-logo img{width:min(360px,100%);height:auto;display:block}.map-art img{width:76px;height:auto;border-radius:3px}
+@media(max-width:760px){.logo img{width:61px;height:auto}.welcome-mark{max-width:280px;min-height:240px}.welcome-mark img{width:100%;height:auto}.about-logo{max-width:340px;width:100%}.about-logo img{width:100%;height:auto}}
+@media(max-width:360px){.logo{gap:8px}.logo img{width:52px}.logo strong{font-size:22px}}
