@@ -92,3 +92,7 @@ Reviewed for customer journeys, service categories, editorial presentation and c
 See `DESIGN-NOTES.md` for the design rationale and asset brief.
 
 The homepage service cards use four AI-generated editorial inspiration images with visible labels, bundled locally as compressed WebP files. They do not represent actual ONYEKA salon work or available product stock.
+
+
+## GitHub Pages deployment
+GitHub Pages uses the Publish ONYEKA to GitHub Pages workflow. Set repository Settings → Pages → Source to GitHub Actions. Each push to main builds the React site, prerenders all seven pages, checks the output and deploys dist. The public Pages URL is https://dotbydot46.github.io/ONYEKA-Hair-Beaty/ . The workflow uses SITE_URL and SITE_PATH_STYLE=html to generate correct canonical URLs and a sitemap for this host. Local and Sites builds keep their existing defaults.
